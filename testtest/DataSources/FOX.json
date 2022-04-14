@@ -1,0 +1,100 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr20f_foxes",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr20f_fox",
+    "Name": "FOX",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Besitzer",
+      "cr20f_ddl": "DDL",
+      "cr20f_dqlcheck": "DQL-Check",
+      "cr20f_fox_AsyncOperations": "Systemaufträge",
+      "cr20f_fox_BulkDeleteFailures": "Massenlöschungsfehler",
+      "cr20f_fox_DuplicateBaseRecord": "Doppelte Datensätze (cr20f_fox_DuplicateBaseRecord)",
+      "cr20f_fox_DuplicateMatchingRecord": "Doppelte Datensätze (cr20f_fox_DuplicateMatchingRecord)",
+      "cr20f_fox_MailboxTrackingFolders": "Automatisch nachverfolgte Postfachordner",
+      "cr20f_fox_PrincipalObjectAttributeAccesses": "Sicherer Feldzugriff",
+      "cr20f_fox_ProcessSession": "Prozesssitzungen",
+      "cr20f_fox_SyncErrors": "Synchronisierungsfehler",
+      "cr20f_foxid": "FOX",
+      "cr20f_name": "ID",
+      "cr20f_variabledefinieren": "Variable definieren",
+      "cr20f_wann": "Wann",
+      "createdby": "Erstellt von",
+      "createdon": "Erstellt am",
+      "createdonbehalfby": "Erstellt von (Stellvertreter)",
+      "importsequencenumber": "Importsequenznummer",
+      "modifiedby": "Geändert von",
+      "modifiedon": "Geändert am",
+      "modifiedonbehalfby": "Geändert von (Stellvertreter)",
+      "overriddencreatedon": "Datensatz erstellt am",
+      "owningbusinessunit": "Besitzer (Unternehmenseinheit)",
+      "owningteam": "Besitzer (Team)",
+      "owninguser": "Besitzer (Benutzer)",
+      "statecode": "Status",
+      "statuscode": "Statusgrund",
+      "timezoneruleversionnumber": "Versionsnummer der Zeitzonenregel",
+      "utcconversiontimezonecode": "Zeitzonencode für die UTC-Konvertierung",
+      "versionnumber": "Versionsnummer"
+    },
+    "PreferredName": "FOX",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "FOX (Ansichten)",
+    "Name": "_cr20f_fox_views",
+    "RelatedEntityName": "FOX",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0da0a6e4-201f-40c5-a7a2-53b85c601cd1": "Inaktive FOX",
+      "8d98f3c6-93d6-42e6-8e3b-eb13df5c28e2": "FOX Ansicht für die erweiterte Suche",
+      "9e343cc6-3a97-40ba-a671-4f3aad45a1da": "Aktive FOX",
+      "b74cbf40-2e14-412a-a391-a59b57c573f3": "FOX Suchansicht",
+      "c1076ced-dafe-482b-a953-66423de24fe6": "FOX Zugeordnete Ansicht"
+    }
+  },
+  {
+    "DisplayName": "Status (FOX)",
+    "Name": "cr20f_fox_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Aktiv",
+      "1": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "FOX"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "FOX",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Statusgrund (FOX)",
+    "Name": "cr20f_fox_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Aktiv",
+      "2": "Inaktiv"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "FOX"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "FOX",
+    "Type": "OptionSetInfo"
+  }
+]
